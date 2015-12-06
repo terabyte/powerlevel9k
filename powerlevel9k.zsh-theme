@@ -333,7 +333,7 @@ prompt_dir() {
 
   fi
 
-  "$1_prompt_segment" "$0" "blue" "$DEFAULT_COLOR" "$(print_icon 'HOME_ICON')$current_path"
+  "$1_prompt_segment" "$0" "black" "white" "$(print_icon 'HOME_ICON')$current_path"
 }
 
 # GO-prompt
