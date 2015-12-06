@@ -215,9 +215,9 @@ prompt_battery() {
   typeset -AH battery_states
   battery_states=(
     'low'           'red'
-    'charging'      'yellow'
+    'charging'      'green'
     'charged'       'green'
-    'disconnected'  "$DEFAULT_COLOR_INVERTED"
+    'disconnected'  'yellow'
   )
   # set default values of not specified in shell
   set_default POWERLEVEL9K_BATTERY_LOW_THRESHOLD  10
